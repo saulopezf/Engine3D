@@ -129,8 +129,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Engine3D.cpp" />
+    <ClCompile Include="GeometricUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GeometricTypes.h" />
     <ClInclude Include="olcConsoleGameEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
